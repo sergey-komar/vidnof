@@ -1,0 +1,158 @@
+@media(max-width: 1190px){
+    .header__btn{
+        display: none;
+    }
+    .header__inner{
+        justify-content: space-between;
+    }
+}
+
+@media(max-width: 990px){
+    html{
+        font-size: 9px;
+    }
+    .header__social{
+        display: none;
+    }
+    .heading{
+        width: 100%;
+    }
+    .breadcrumbs__list-active::before{
+        top: 6px;
+    }
+    .title::before, .title::after{
+        top: 10px;
+    }
+    .articles-block__item{
+        width: 35rem;
+    }
+    .articles-block{
+        justify-content: center;
+    }
+    .articles__title{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+@media(max-width: 840px){
+    .header__email{
+        display: none;
+    }
+    .reviews .articles-block__item-btn{
+        margin-left: 3rem;
+    }
+}
+
+
+
+@media(max-width: 690px){
+    html{
+        font-size: 8px;
+    }
+    .menu{
+        display: none;
+    }
+    .header__email{
+        display: block;
+    }
+    .header__email::before{
+        display: none;
+    }
+}
+
+
+
+@media(max-width: 550px){
+    .heading__title{
+        font-size: 36px;
+    }
+    .heading__subtitle{
+        font-size: 21px;
+    }
+    .heading__img img{
+        width: 40px;
+    }
+    .heading__btn{
+        width: 26rem;
+        font-size: 16px;
+    }
+    .heading__btn-left::before{
+        width: 200px;
+        height: 1px;
+    }
+    .heading__btn-left::after{
+        width: 1px;
+        height: 42px;
+    }
+    .heading__btn-right::before{
+        width: 200px;
+        height: 1px;
+    }
+    .heading__btn-right::after{
+        width: 1px;
+        height: 42px;
+    }
+    .reviews-block__item{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .title{
+        font-size: 24px;
+    }
+    .title::before, .title::after{
+        width: 15px;
+        height: 15px;
+        background: url('../images/icons/star-mobile.png') no-repeat;
+    }
+    .reviews__title{
+        width: max-content;
+        margin-left: 2rem;
+    }
+    .reviews__title::before{
+        top: 7px;
+        left: -2rem;
+    }
+    .reviews__title::after{
+        top: 7px;
+        right: -2rem;
+    }
+    .reviews-block__content{
+        margin-top: 2rem;
+        margin-left: 0;
+    }
+    .reviews .articles-block__item-btn{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .articles__title{
+        width: max-content;
+    }
+    .articles__title::before{
+        left: -20px;
+        top: 6px;
+    }
+    .articles__title::after{
+        top: 7px;
+        right: -20px;
+    }
+    .footer__text{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+@media(max-width: 490px){
+    .header__email,
+    .header__phone{
+        display: none;
+    }
+    .heading__logo img{
+        width: 250px;
+    }
+}

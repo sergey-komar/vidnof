@@ -5,8 +5,10 @@ body {
 	flex-direction: column;/*sticky footer*/
 	margin: 0;
 	scroll-behavior: smooth;
-	font-family: '';
+	font-family: 'Petersburg';
 	font-weight: 400;
+	color: #000;
+	font-size: 18px;
  }
 html{
 	font-size: 10px;
@@ -22,8 +24,22 @@ button{
 	cursor: pointer;
 }
 .container{
-	max-width: 137rem;
+	max-width: 117.3rem;
 	margin: 0 auto;
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
+}
+.title{
+	position: relative;
+    font-size: 4.8rem;
+    font-weight: 700;
+}
+.title::before,
+.title::after{
+	position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    background: url('../images/articles/articles-star.svg') no-repeat;
 }

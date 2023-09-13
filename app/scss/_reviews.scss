@@ -1,0 +1,40 @@
+.reviews__title {
+    margin-bottom: 2rem;
+    width: 18rem;
+    margin-left: 4rem;
+}
+.reviews__title::before{
+    left: -4rem;
+}
+.reviews__title::after{
+    right: -3.8rem;
+}
+.reviews-block__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4.2rem;
+}
+.reviews-block__item-img {
+    min-width: 17rem;
+}
+.reviews-block__content {
+    max-width: 95rem;
+    margin-left: 2.8rem;
+}
+.reviews-block__content-title {
+    margin-bottom: .7rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.reviews-block__content-date {
+    margin-bottom: .5rem;
+    font-size: 1.4rem;
+    color: #C2C2C2;
+}
+.reviews-block__content-text {
+    font-size: 1.6rem;
+    line-height: 24px;
+}
+.reviews .articles-block__item-btn{
+   margin: 0 0 5rem 0;
+}
