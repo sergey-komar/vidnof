@@ -1,0 +1,105 @@
+.description-info {
+    position: relative;
+    min-height: calc(100vh - 11rem);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.description__wrapper{
+    max-width: 49rem;
+    position: absolute;
+    color: #fff;
+    bottom: 6rem;
+}
+.description-info__title {
+    margin-bottom: 1rem;
+    font-size: 3.6rem;
+}
+.description-info__text {
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.description__content {
+    margin-top: 4.2rem;
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.description__content-btn {
+    color: #000;
+    display: block;
+}
+
+.description-box {
+    display: flex;
+    margin-bottom: 7.5rem;
+}
+.description-box__img {
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+.description-box__img:hover{
+    transform: scale(1.1);
+    transition: all .3s ease-in;
+}
+.description-block__title,
+.form__title {
+   max-width: max-content;
+   margin-left: auto;
+   margin-right: auto;
+}
+.description-block__title.title::before,
+.form__title.title::before{
+    left: -28px;
+}
+.title {
+}
+.description-block {
+    margin-top: 3rem;
+    margin-bottom: 6.1rem;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 4rem;
+}
+.description-block__item {
+    width: 25%;
+}
+.description-block__item-img {
+}
+.description-block__item-text {
+}
+.form__inner{
+    background-color: #F6F6F6;
+}
+.form {
+    padding-top: 9.4rem;
+    padding-bottom: 10rem;
+}
+.form__title {
+    margin-bottom: 3rem;
+}
+.form__input {
+    max-width: 37.5rem;
+    width: 100%;
+    height: 6.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #fff;
+    border: 1px solid #C2C2C2;
+}
+.form__input::placeholder{
+    font-size: 1.6rem;
+}
+.form__textarea {
+    width: 100%;
+    height: 14rem;
+    padding: 2.8rem 1rem 1rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    border: 1px solid #C2C2C2;
+    resize: none;
+}
+.form__btn {
+   margin-left: 2rem;
+   margin-right: 0;
+}

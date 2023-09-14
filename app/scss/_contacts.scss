@@ -1,0 +1,53 @@
+.contacts__title{
+    margin-left: 3rem;
+    margin-bottom: 3.5rem;
+}
+.contacts-block{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7rem;
+}
+.contacts__title.title::before{
+    left: -3rem;
+}
+.contacts-block__content {
+    max-width: 35rem;
+    width: 100%;
+}
+.contacts-block__content-text {
+    display: block;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.contacts-block__content-text::before{
+    position: absolute;
+    content: '';
+    top: -20px;
+    left: 0;
+    font-size: 1.4rem;
+}
+.contacts-block__content-addres {
+   padding-bottom: 2rem;
+}
+.contacts-block__content-addres::before{
+    content: 'Адрес';
+}
+.contacts-block__content-phone {
+    padding-bottom: 2rem;
+}
+.contacts-block__content-phone::before{
+    content: 'Телефон';
+}
+.contacts-block__content-email {
+}
+.contacts-block__content-email::before{
+    content: 'Почта';
+   
+}
+.contacts-block__map {
+    margin-left: 8rem;
+    width: 100%;
+}
+.map{
+    width: 100%;
+}

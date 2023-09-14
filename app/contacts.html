@@ -28,14 +28,14 @@
               <a href="./about.html">О нас</a>
             </li>
             <li>
-              <a href="#">Отзывы</a>
+              <a href="./reviews.html">Отзывы</a>
             </li>
             <li>
               <a href="./articles.html">Статьи</a>
             </li>
           </ul>
         </nav>
-        <a href="./contacts.html" class="header__btn">Схема проезда</a>
+        <a href="#" class="header__btn">Схема проезда</a>
         <div class="header__social">
           <a href="#" class="header__social-link">
             <img src="images/icons/vk.svg" alt="vk">
@@ -85,7 +85,7 @@
               <a href="./about.html">О нас</a>
             </li>
             <li>
-              <a href="#">Отзывы</a>
+              <a href="./reviews.html">Отзывы</a>
             </li>
             <li>
               <a href="./articles.html">Статьи</a>
@@ -107,7 +107,7 @@
             <img src="images/icons/whatsap.svg" alt="img">
           </a>
         </div>
-        <a href="./contacts.html" class="header__btn-mobile">Схема проезда</a>
+        <a href="#" class="header__btn-mobile">Схема проезда</a>
         
       </div>
       </div>
@@ -116,7 +116,7 @@
   </header>
  
     <main class="main">
-       <section class="reviews">
+      <section class="contacts">
         <div class="container">
             <div class="breadcrumbs">
                 <ul class="breadcrumbs__list">
@@ -124,43 +124,47 @@
                         <a href="#">Главная</a>
                     </li>
                     <li>
-                        <a class="breadcrumbs__list-active" href="#">Отзывы</a>
+                        <a class="breadcrumbs__list-active" href="#">Контакты</a>
                     </li>
                 </ul>
             </div>
+       
 
-            <h1 class="reviews__title title">Отзывы</h1>
-
-            <div class="reviews-block">
-                <div class="reviews-block__item">
-                    <div class="reviews-block__item-img">
-                        <img src="images/reviews-img.jpg" alt="img">
-                    </div>
-                    <div class="reviews-block__content">
-                        <div class="reviews-block__content-title">Анна</div>
-                        <div class="reviews-block__content-date">19.02.2014</div>
-                        <div class="reviews-block__content-text">
-                            Отель произвел на меня очень хорошее впечатление. В феврале летели с подругой на отдых через Москву, остановились в этом отеле,т.к. московские гостиницы для нас оказались дороговаты. Остановились на сутки. Забронировали номер "Эконом" через интернет, легко и быстро, оплатили уже по приезду. В номере стильная современная обстановка, чисто и уютно, пахнет свежестью,есть все необходимое для жизни. Особенно так необходимый в наше время бесплатный выход в интернет. Очень порадовала просторная душевая кабина, исправная сантехника. Мы отлично выспались и отдохнули. В другой раз тоже остановлюсь здесь.
-                        </div>
-                    </div>
+            <div class="contacts-block">
+                <div class="contacts-block__content">
+                    <h1 class="contacts__title title">Контакты</h1>
+                    <a href="#" class="contacts-block__content-text contacts-block__content-addres">г. Видное, ул. Кооперативная, 2</a>
+                    <a href="#" class="contacts-block__content-text contacts-block__content-phone">
+                        +7 (495) 541-34-52
+                    </a>
+                    <a href="#" class="contacts-block__content-text contacts-block__content-phone">
+                        +7 (495) 592-90-00
+                    </a>
+                    <a href="#" class="contacts-block__content-text contacts-block__content-email">
+                        hotel@vidnoff.ru
+                    </a>
                 </div>
-                <div class="reviews-block__item">
-                    <div class="reviews-block__item-img">
-                        <img src="images/reviews-img.jpg" alt="img">
-                    </div>
-                    <div class="reviews-block__content">
-                        <div class="reviews-block__content-title">Анна</div>
-                        <div class="reviews-block__content-date">19.02.2014</div>
-                        <div class="reviews-block__content-text">
-                            Отель произвел на меня очень хорошее впечатление. В феврале летели с подругой на отдых через Москву, остановились в этом отеле,т.к. московские гостиницы для нас оказались дороговаты. Остановились на сутки. Забронировали номер "Эконом" через интернет, легко и быстро, оплатили уже по приезду. В номере стильная современная обстановка, чисто и уютно, пахнет свежестью,есть все необходимое для жизни. Особенно так необходимый в наше время бесплатный выход в интернет. Очень порадовала просторная душевая кабина, исправная сантехника. Мы отлично выспались и отдохнули. В другой раз тоже остановлюсь здесь.
-                        </div>
-                    </div>
+
+                <div class="contacts-block__map">
+                    <iframe class="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A8825506fe7581f10619e9fbff8702e62685da4be56397b2d5b30dfae67b14f5b&amp;source=constructor" height="400" frameborder="0"></iframe>
                 </div>
             </div>
-
-            <a href="#" class="heading__btn articles-block__item-btn"><span class="heading__btn-left articles-block__item-btn--left"></span>Подробнее<span class="heading__btn-right articles-block__item-btn--rigth"></span></a>
         </div>
-       </section>
+
+        <div class="form__inner">
+            <div class="container">
+                <form  class="form">
+                    <h3 class="form__title title">Забронировать номер</h3>
+                    <input type="text" class="form__input input1" placeholder="Ваше имя" required>
+                    <input type="text" class="form__input" id="input-mask1" placeholder="Ваш номер телефона" required>
+                    <input type="text" class="form__input input2" placeholder="Ваш email" required>
+                    <textarea class="form__textarea" placeholder="Ваш комментарий"></textarea>
+
+                    <button class="heading__btn form__btn articles-block__item-btn" type="submit"><span class="heading__btn-left articles-block__item-btn--left"></span>Отправить<span class="heading__btn-right articles-block__item-btn--rigth"></span></button>
+                </form>
+            </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="container">
@@ -172,7 +176,7 @@
  
 
 
-
+    <script src="https://unpkg.com/imask"></script>
   <script src="js/main.min.js"></script>
 </body>
 
